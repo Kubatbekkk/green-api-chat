@@ -1,50 +1,41 @@
-# React + TypeScript + Vite
+Тестовое задание на должность "Фронтенд разработчик React"
+В рамках тестового задания требуется разработать пользовательский интерфейс для
+отправки и получений сообщений WhatsApp
+Время на выполнение задания: 5 дней
+Требования:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Требуется разработать пользовательский интерфейс для отправки и получений
+   сообщений WhatsApp
+2. Требуется использовать сервис GREEN-API https://green-api.com
+3. Требуется реализовать отправку и получение только текстовых сообщений
+4. Требуется за прототип интерфейса взять внешний вид чата
+   https://web.whatsapp.com/
+5. Требуется реализовать интерфейс максимально простым с минимальным набором
+   функций
 
-Currently, two official plugins are available:
+6. Требуется отправку сообщений реализовать методом https://green-
+   api.com/docs/api/sending/SendMessage/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+7. Требуется получение сообщений реализовать методом https://green-
+   api.com/docs/api/receiving/technology-http-api/
 
-## Expanding the ESLint configuration
+8. Требуется использовать технологию React
+   Ожидаемый результат:
+   • Пользователь переходит на сайт чата и вводит свои учетные данные из
+   системы GREEN-API (idInstance, apiTokenInstance)
+   • Пользователь вводит номер телефона получателя и создает новый чат
+   • Пользователь пишет текстовое сообщение и отправляет его получателю в
+   WhatsApp
+   • Получатель отвечает на сообщение в мессенджере WhatsApp
+   • Пользователь видит ответ получателя в чате
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Результат:
+Результат выполнения задания просьба отправить на адрес support@green-api.com в
+формате:
+Тема: Тестовое задание на должность - Фронтенд разработчик React
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Ваше резюме - приложить файл pdf
+2. Ссылка на репозиторий github
+3. Ссылка на инструкцию для локального запуска проекта
+4. Ссылка на сервис в Интернете (при наличии)
+5. Ссылка на скриншоты/видео-презентацию (при наличии)
