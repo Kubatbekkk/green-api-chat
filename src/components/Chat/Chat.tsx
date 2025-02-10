@@ -56,7 +56,7 @@ export const Chat = ({ idInstance, apiTokenInstance }: ChatProps) => {
         bgcolor: "white",
         p: 2,
         borderRadius: 2,
-        boxShadow: 3,
+        boxShadow: 1,
       }}
     >
       <Box display="flex" alignItems="center" mb={1}>
@@ -116,7 +116,7 @@ export const Chat = ({ idInstance, apiTokenInstance }: ChatProps) => {
         <Button
           onClick={sendMessage}
           variant="contained"
-          color="primary"
+          color="success"
           sx={{ ml: 2 }}
         >
           Отправить

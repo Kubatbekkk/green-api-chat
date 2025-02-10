@@ -31,7 +31,7 @@ export const Login = ({ onLogin }: LoginProps) => {
         bgcolor: "white",
         borderRadius: 2,
         padding: 4,
-        boxShadow: 3,
+        boxShadow: 1,
       }}
     >
       <Box sx={{ width: "100%" }}>
@@ -58,7 +58,7 @@ export const Login = ({ onLogin }: LoginProps) => {
         />
         <Button
           variant="contained"
-          color="primary"
+          color="success"
           onClick={handleLogin}
           sx={{ mt: 2 }}
           fullWidth

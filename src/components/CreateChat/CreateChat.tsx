@@ -57,7 +57,7 @@ export const CreateChat = ({
         backgroundColor: "#f4f6f8",
         borderRadius: 2,
         padding: 4,
-        boxShadow: 3,
+        boxShadow: 1,
       }}
     >
       <Box sx={{ width: "100%" }}>
@@ -85,7 +85,7 @@ export const CreateChat = ({
         />
         <Button
           variant="contained"
-          color="primary"
+          color="success"
           onClick={handleCreateChat}
           sx={{ mt: 2 }}
           fullWidth
