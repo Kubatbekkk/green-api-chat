@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Message from "./Message";
 import { useParams } from "react-router-dom";
 import {
   Box,
@@ -12,12 +11,13 @@ import {
   Divider,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { MessageType, useChatStore } from "./store";
-import type { Credentials } from "./App";
+import { MessageType, useChatStore } from "../../store";
+import type { Credentials } from "../../App";
+import Message from "./Message";
 
 type ChatProps = Credentials;
 
-const Chat = ({ idInstance, apiTokenInstance }: ChatProps) => {
+export const Chat = ({ idInstance, apiTokenInstance }: ChatProps) => {
   const [message, setMessage] = useState<string>("");
   const chatHistory = useChatStore((state) => state.chatHistory);
   const sendMessageStore = useChatStore((state) => state.sendMessage);
@@ -125,5 +125,3 @@ const Chat = ({ idInstance, apiTokenInstance }: ChatProps) => {
     </Container>
   );
 };
-
-export default Chat;

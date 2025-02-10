@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { styled } from "@mui/system";
-import type { MessageType } from "./store";
+import type { MessageType } from "../../store";
 
 type MessageProps = MessageType;
 

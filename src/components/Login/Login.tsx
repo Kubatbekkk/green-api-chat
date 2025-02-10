@@ -6,7 +6,7 @@ interface LoginProps {
   onLogin: (idInstance: string, apiTokenInstance: string) => void;
 }
 
-const Login = ({ onLogin }: LoginProps) => {
+export const Login = ({ onLogin }: LoginProps) => {
   const [idInstance, setIdInstance] = useState("");
   const [apiTokenInstance, setApiTokenInstance] = useState("");
   const navigate = useNavigate();
@@ -69,5 +69,3 @@ const Login = ({ onLogin }: LoginProps) => {
     </Container>
   );
 };
-
-export default Login;

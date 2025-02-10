@@ -5,9 +5,9 @@ import {
   Navigate,
 } from "react-router-dom";
 import { useState } from "react";
-import Chat from "./Chat";
-import CreateChat from "./CreateChat";
-import Login from "./Login";
+import { CreateChat } from "./components/CreateChat";
+import { Login } from "./components/Login";
+import { Chat } from "./components/Chat";
 
 export interface Credentials {
   idInstance: string;

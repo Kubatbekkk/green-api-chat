@@ -8,14 +8,17 @@ import {
   Typography,
   Alert,
 } from "@mui/material";
-import { useChatStore } from "./store";
+import { useChatStore } from "../../store";
 
 export interface CreateChatProps {
   idInstance: string;
   apiTokenInstance: string;
 }
 
-const CreateChat = ({ idInstance, apiTokenInstance }: CreateChatProps) => {
+export const CreateChat = ({
+  idInstance,
+  apiTokenInstance,
+}: CreateChatProps) => {
   const [phoneNumber, setPhoneNumber] = useState<string>("");
   const [error, setError] = useState<string>("");
   const navigate = useNavigate();
@@ -93,5 +96,3 @@ const CreateChat = ({ idInstance, apiTokenInstance }: CreateChatProps) => {
     </Container>
   );
 };
-
-export default CreateChat;
