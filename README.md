@@ -1,5 +1,9 @@
 ### Тестовое задание на должность "Фронтенд разработчик React"
 
+### Demo
+Видео в ссылке в электронном письме.
+
+
 #### Deploy: https://greenapi-chat.netlify.app/
 
 #### ТЗ: https://drive.google.com/file/d/1c3HDbZJuPdfv7FaUYo8kEMzsfM2AkKwI/view
