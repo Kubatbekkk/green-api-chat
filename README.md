@@ -2,6 +2,7 @@
 
 ### Demo
 Видео в ссылке в электронном письме.
+![image](https://github.com/user-attachments/assets/d28786ce-9f2b-4429-ac95-29339a155ad9)
 
 
 #### Deploy: https://greenapi-chat.netlify.app/
