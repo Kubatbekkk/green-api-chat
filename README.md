@@ -2,8 +2,7 @@
 
 ### Demo
 Видео в ссылке в электронном письме.
-![image](https://github.com/user-attachments/assets/d28786ce-9f2b-4429-ac95-29339a155ad9)
-
+![VideoProject2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1041c019-48cb-4d87-bef1-16259468bc4b)
 
 #### Deploy: https://greenapi-chat.netlify.app/
 
