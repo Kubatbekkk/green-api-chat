@@ -9,8 +9,8 @@
 #### 1. Клонируем репозиторий
 
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone git@github.com:Kubatbekkk/green-api-chat.git
+cd green-api-chat
 ```
 
 #### 2. Устанавливаем зависимости
