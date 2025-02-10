@@ -33,7 +33,7 @@ export const Chat = ({ idInstance, apiTokenInstance }: ChatProps) => {
       setMessages(useChatStore.getState().chatHistory);
     };
 
-    const interval = setInterval(getNotifications, 10_000);
+    const interval = setInterval(getNotifications, 5_000);
 
     return () => clearInterval(interval);
   }, [chatHistory, idInstance, apiTokenInstance, getNotificationsStore]);
