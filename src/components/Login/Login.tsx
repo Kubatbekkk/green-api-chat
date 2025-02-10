@@ -48,8 +48,8 @@ export const Login = ({ onLogin }: LoginProps) => {
           margin="normal"
         />
         <TextField
-          label="API Token"
-          placeholder="Введите API Token"
+          label="API Token Instance"
+          placeholder="Введите API Token Instance"
           value={apiTokenInstance}
           onChange={(e) => setApiTokenInstance(e.target.value)}
           fullWidth
